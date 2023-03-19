@@ -11,7 +11,7 @@ def default():
     return "没有这种类型"
 
 
-def choice_card(num):
+async def choice_card(num):
     card_name = {
         "1":  genshin_version_time,
         "2":  now_time,
